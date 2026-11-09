@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Df Wave 1
+  m_Controller: {fileID: 9100000, guid: f26d77cdd6f531d4dbd472149e68646a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3a812263606fbae43a3e12374b407043, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b39c8cd2e979bd0458d96f045c9e4464, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 106d496a3beab574ca47f66a0007ab24, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2f381863b81afe445bb3bbd18f1e90cc, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 7b38cbee034883a438abccecac45c293, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ac9b8cd5f91eeef44a25fce0f31885c1, type: 3}

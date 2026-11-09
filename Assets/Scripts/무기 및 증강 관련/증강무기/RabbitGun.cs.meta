@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 800f001c66633854694cf7241d6abe66
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rGrutePrefab: {fileID: 2166507536290092260, guid: 564b1814e61555d4caa8d770aacbb29c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

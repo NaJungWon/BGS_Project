@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 538e1d5ea605a9846bf6a7d693d52230, type: 3}
+  m_Name: Weapon Card 3
+  m_EditorClassIdentifier: 
+  cardName: "\uBE5B\uC758 \uD654\uC0B4"
+  cardImage: {fileID: 21300000, guid: 33317721d36f3b74697fec94e226068b, type: 3}
+  cardType: 0
+  cardCase: {fileID: 7265077813281076051, guid: 173f95289a55d994a8652cdd58fded57, type: 3}
+  upgradeCount: 0
+  weaponPrefab: {fileID: 5475079323519012282, guid: 4b7960417647e66489a47f871f758dea, type: 3}
+  weaponDescription: "\uC801\uC5D0\uAC8C \uBE5B\uC758 \uD654\uC0B4\uC744 \uC3D8\uC544
+    \uB370\uBBF8\uC9C0\uB97C \uC90D\uB2C8\uB2E4."
+  damage: 5
+  attackSpeed: 0.25
+  defense: 0
+  projecTile: 0
+  attackRange: 0
+  duration: 0
+  isArousal: 0
+  arousalDescription: "\uBE5B\uC758 \uD654\uC0B4\uC758 \uBC1C\uC0AC\uC18D\uB3C4\uAC00
+    \uD06C\uAC8C \uC99D\uAC00\uD569\uB2C8\uB2E4"
+  weaponUpgradeDataList:
+  - upgradeAbility: 3
+    increaseStatus: 5
+  upgradeAbility: 4
+  increaseAbility: 0
+  needArousalAbility: "\uACF5\uACA9 \uC18D\uB3C4"

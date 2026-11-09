@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12f0c68ec6049c24abf94d63c3ed6a81, type: 3}
+  m_Name: Ability 2
+  m_EditorClassIdentifier: 
+  abilityName: "\uCCB4\uB825 \uC7AC\uC0DD"
+  abilityImage: {fileID: 21300000, guid: a00695464bec2654ea8637c651eb4240, type: 3}
+  upgradeAbilityCategory: 1
+  upgradeCount: 0
+  maxUpgradeCount: 5
+  needGold: 200
+  increaseNeedGoldValue: 80
+  upgradeValueType: 0
+  efficiency: 3

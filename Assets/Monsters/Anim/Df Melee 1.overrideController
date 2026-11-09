@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Df Melee 1
+  m_Controller: {fileID: 9100000, guid: f26d77cdd6f531d4dbd472149e68646a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 106d496a3beab574ca47f66a0007ab24, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e6a84557d6aca2f4daa1b608739267d9, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 7b38cbee034883a438abccecac45c293, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 57b96fcfb13429847939b2e633026c89, type: 3}

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 658f20ef444cbb248a55ed7a8d727431
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerStatus: {instanceID: 0}
+  - groundEffectPrefab: {fileID: 1251727885438704147, guid: 9d4b69d32975bfc4b98aa3e8217a16b4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

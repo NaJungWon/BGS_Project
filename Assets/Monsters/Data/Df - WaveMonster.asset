@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3751c28fff98dc44f81ac333929cf39e, type: 3}
+  m_Name: Df - WaveMonster
+  m_EditorClassIdentifier: 
+  monsterName: 
+  monsterType: 2
+  attackType: 1
+  monstermodel: {fileID: 2265548230803356597, guid: 81058d0af4d99534d8376cf8d9f3824c, type: 3}
+  hp: 10000
+  damage: 200
+  attackRange: 15
+  attackSpeed: 5
+  moveSpeed: 1.5
+  monsterAlive: 0

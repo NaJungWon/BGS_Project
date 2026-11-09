@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1274400480758079657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 227154573346254982}
+  - component: {fileID: 7496760702732109027}
+  - component: {fileID: 574103982547127423}
+  m_Layer: 0
+  m_Name: Bless of Sea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &227154573346254982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274400480758079657}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7496760702732109027
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274400480758079657}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 7
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &574103982547127423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274400480758079657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfcffe7a5b7ac2f4aba4b8eb545bc0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  playerStatus: {fileID: 0}
+  upgradeInGame: {fileID: 0}
+  effect: {fileID: 4571946187881225977, guid: a10a547ec4778fc49a78db6f080eed37, type: 3}
+  arousalEffect: {fileID: 7045967243816653588, guid: 6398f7b4021179d4989119f7c4243911, type: 3}
+  effectBoom: {fileID: 2891043219134849905, guid: d02f2c0514409a448868232ca5c799c9, type: 3}
+  arousalEffectBoom: {fileID: 6406862735292059242, guid: 780caac99da79514f82f83d5b0d9b5e8, type: 3}
+  hitEffect: {fileID: 7505931454801173794, guid: 6e9729b34f348df45b7a7400dfe89bba, type: 3}
+  arousalHitEffect: {fileID: 5168980149690191527, guid: 5767efeeb6c72314585acb15b8ab3a31, type: 3}
+  weaponDamage: 100
+  weaponCooldown: 5
+  isArousal: 0

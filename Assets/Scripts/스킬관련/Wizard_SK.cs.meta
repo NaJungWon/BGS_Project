@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f5fa6775dde105b459d1bb87654e734e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerStatus: {instanceID: 0}
+  - aimSet: {instanceID: 0}
+  - magicBullet: {fileID: 3382522427046119752, guid: 12a0714a20206fe4bb1ef5162a75e4f7, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4630948031662649335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6889929379878912243}
+  - component: {fileID: 6658299756516515957}
+  m_Layer: 0
+  m_Name: Magic Missile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6889929379878912243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4630948031662649335}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6658299756516515957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4630948031662649335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fff315711747b64da09c567b1bf8460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  upgradeInGame: {fileID: 0}
+  playerTransform: {fileID: 0}
+  weaponPrefab: {fileID: 747303175691891220, guid: 0a8311b62d28feb42bac655b244c0b91, type: 3}
+  hitEffect: {fileID: 4186470608034871016, guid: d60daaa7c36896a49855807eb04b7d37, type: 3}
+  weaponDamage: 30
+  projectileSpeed: 10
+  convergeSpeed: 5
+  fireRate: 0.33
+  convergeDelay: 0.5
+  weaponCooldown: 5
+  waitCool: 1
+  isFiring: 0
+  isArousal: 0
+  activeProjectiles: []
+  inactiveProjectiles: []

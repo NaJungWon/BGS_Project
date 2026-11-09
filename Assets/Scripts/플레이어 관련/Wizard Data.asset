@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fc6f20edd4227f4dba595cbb5f4b07f, type: 3}
+  m_Name: Wizard Data
+  m_EditorClassIdentifier: 
+  characterName: "\uB9C8\uBC95\uC0AC"
+  level: 1
+  characterOccupation: 1
+  needExperience: 100
+  characterModel: {fileID: 990023515843275126, guid: f8d3c665662654d4c86a67a4a647dbda, type: 3}
+  dfWeaponCard: {fileID: 11400000, guid: b6ea77d27b573f8448dcb9f1cc25111f, type: 2}
+  characterImage: {fileID: 21300000, guid: 60cbf31f86ad0d74bacfa14aaacd0f3d, type: 3}
+  characterIcon: {fileID: 131403269, guid: 5626e51d3cc95f84bb5f9343d3dbf1ab, type: 3}
+  chracterSkill: {fileID: 4449263838865239166, guid: 2f7a8d6e61d251a4e9da318c3d1652c2, type: 3}
+  eskillName: "\uD654\uC5FC\uAD6C"
+  qskillName: "\uBA54\uD14C\uC624"
+  eskillDescription: "\uD654\uC5FC\uAD6C\uB97C \uB0A0\uB824 \uB370\uBBF8\uC9C0\uB97C
+    \uC90D\uB2C8\uB2E4."
+  qskillDescription: "\uBA54\uD14C\uC624\uB97C \uB5A8\uC5B4\uD2B8\uB824 \uB370\uBBF8\uC9C0\uB97C
+    \uC90D\uB2C8\uB2E4."
+  health: 800
+  healthRegeneration: 10
+  attack: 180
+  attackSpeed: 3
+  defense: 10
+  speed: 5.5
+  critical: 5
+  criticalDamage: 1.75
+  projecTile: 0
+  attackRange: 1
+  duration: 1
+  acquisitionRange: 1
+  experienceGain: 1
+  isAllive: 0

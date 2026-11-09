@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3751c28fff98dc44f81ac333929cf39e, type: 3}
+  m_Name: Df - Posion
+  m_EditorClassIdentifier: 
+  monsterName: Posion
+  monsterType: 0
+  attackType: 0
+  monstermodel: {fileID: 3643719979653970959, guid: a230b96cd02adb3449dabd6c96589195, type: 3}
+  hp: 300
+  damage: 150
+  attackRange: 0
+  attackSpeed: 0
+  moveSpeed: 2
+  monsterAlive: 0

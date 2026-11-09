@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6318505595271426606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8388445343036983300}
+  - component: {fileID: 5819747209624868020}
+  m_Layer: 0
+  m_Name: Lightning Strike
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8388445343036983300
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6318505595271426606}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5819747209624868020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6318505595271426606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 658f20ef444cbb248a55ed7a8d727431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  playerStatus: {fileID: 0}
+  upgradeInGame: {fileID: 0}
+  weaponPrefab: {fileID: 5294240728190378251, guid: bbec95eee62b2d34c859ecbbc4478ac7, type: 3}
+  weaponArousalPrefab: {fileID: 7756476367775112892, guid: 6214796bb0e294a4cb8222a2a0aa8b98, type: 3}
+  weaponDamage: 30
+  weaponCooldown: 0
+  damageInterval: 1
+  groundEffectDamage: 10
+  weaponProjecTile: 3
+  weaponDuration: 5
+  hitEffect: {fileID: 4835274515229430647, guid: e6a82537c010e774bb6274ae6a33be91, type: 3}
+  hitEffectArousal: {fileID: 8975579432340231723, guid: cbe1576dde9ef9b4786433776cd74427, type: 3}
+  isArousal: 0
+  activeArrows: []
+  inactiveArrows: []
+  activeArrowsArousal: []
+  inactiveArrowsArousal: []
