@@ -179,9 +179,11 @@ public class MonsterStatus : MonoBehaviour
             {
                 expCollider.isTrigger = false;
             }
+            ExpItem expItem = expObject.GetComponent<ExpItem>();
+            expItem.ResetValue(); // 재사용 구의 값을 원래대로 되돌린 뒤 배율 적용
             if(hitExtinction)
             {
-                expObject.GetComponent<ExpItem>().expValue *= 1.5f;
+                expItem.expValue *= 1.5f;
                 hitExtinction = false;
             }
             expObject.SetActive(true);

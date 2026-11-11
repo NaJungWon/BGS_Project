@@ -167,6 +167,7 @@ public class MonsterSetting : MonoBehaviour
         {
             monsterStatus.currentHealth = monsterStatus.maxHealth;
             monsterStatus.monsterAlive = true;
+            monsterStatus.hitExtinction = false; // 이전 생에서 남은 절멸 표시 지우기 (보스 등장 시 일괄 반납 대비)
         }
         // 몬스터가 활성화될 때 EnemyManager에 등록
         if (EnemyManager.Instance != null)

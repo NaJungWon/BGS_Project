@@ -43,11 +43,12 @@ public class BomberBullet : MonoBehaviour
         {
             if (monster != null)
             {
-                monster.TakeDamage(weaponDamage, player);
+                // 피해보다 먼저 표시해야, 이 공격으로 처치한 몬스터도 경험치 1.5배를 받음
                 if(isArousal)
                 {
                     monster.hitExtinction = true;
                 }
+                monster.TakeDamage(weaponDamage, player);
             }
         }
     }

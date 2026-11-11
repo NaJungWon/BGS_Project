@@ -106,6 +106,9 @@ public class FireArrow : MonoBehaviour
         SphereCollider sphereCollider = playerAttackRange.GetComponent<SphereCollider>();
         float attackRange = sphereCollider.radius * playerStatus.attackRange;
 
+        // 장판 피해는 발사 시점의 공격력 기준(첫 타격의 1/5) — 강화로 오른 공격력을 반영
+        groundEffectDamage = weaponDamage / 5f;
+
         // 플레이어 주변의 몬스터 찾기
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, attackRange);
 
